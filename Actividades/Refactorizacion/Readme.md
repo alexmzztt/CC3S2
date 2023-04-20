@@ -4,11 +4,10 @@
 
 El estado de la calculadora es verdadero cuando se inicializa correctamente
 
-
-![imagen1.jgp](https://github.com/alexmzztt/CC3S2/tree/main/Actividades/Refactorizacion/Assets/imagen1.jpg)
-
-
-
-![imagen1.jgp](https://github.com/alexmzztt/CC3S2/blob/main/Assets/imagen1.jpg)
+Primero escribimos la prueba en la clase CalculatorTest
 
 ![](Assets/imagen1.jpg)
+
+Luego escribimos el código que la hace verdadera
+
+![](Assets/imagen2.jpg)

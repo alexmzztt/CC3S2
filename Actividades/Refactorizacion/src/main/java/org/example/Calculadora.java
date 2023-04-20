@@ -34,7 +34,5 @@ public class Calculadora {
         return a*b;
         }
 
-    public int elevar (int a, int b) {
-        return math.pow(a,b);
-    }
+
 }
