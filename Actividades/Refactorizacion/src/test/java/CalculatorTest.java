@@ -50,4 +50,22 @@ public class CalculatorTest {
     public void whenMultiplicationThenReturnCorrectAnswer() {
         assertEquals(6, calculadora.multiplicacion(3, 2));
     }
+
+    @Test
+    public void whenPotenciaThenReturnCorrectAnswer() {
+        assertEquals(9, calculadora.potencia(3, 2));
+    }
+
+    @Test
+    public void whenRaizThenReturnCorrectAnswer() {
+        assertEquals(2, calculadora.raiz(4, 2));
+    }
+
+    @Test
+    public void whenRaizByZeroThenThrowException() {
+        Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
+            calculadora.raiz(5, 0);
+        });
+        assertEquals("No se puede sacar raiz de un índice menor o igual a 0", exception.getMessage());
+    }
 }

@@ -36,5 +36,16 @@ public class Calculadora {
         return a*b;
         }
 
+    public double potencia (int a, int b){
+        return Math.pow(a,b);
+    }
 
+    public double raiz (int a, int b){
+        if (b<=0) {
+            throw new IllegalArgumentException("No se puede sacar raiz de un índice menor o igual a 0");
+        }
+        else {
+            return Math.pow(a, 1.0 / b);
+        }
+    }
 }

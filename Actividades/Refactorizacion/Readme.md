@@ -69,6 +69,12 @@ Agrega más funciones a la clase Calculadora utilizando los principios de TDD.
 
 Agregaremos multipllicación
 
+![](Assets/21.jpg)
+
+![](Assets/20.jpg)
+
+Corregimos para que pase la prueba:
+
 ![](Assets/15.jpg)
 
 ![](Assets/16.jpg)
@@ -77,12 +83,33 @@ Verificamos que pase la prueba:
 
 ![](Assets/17.jpg)
 
+Añadimos potencia:
 
+![](Assets/22.jpg)
 
+![](Assets/23.jpg)
 
+Corregimos para que pase la prueba:
 
+![](Assets/24.jpg)
 
+![](Assets/25.jpg)
 
+Añadimos raíz:
+
+![](Assets/28.jpg)
+
+![](Assets/27.jpg)
+
+Si b fuera 0 o negativo:
+
+![](Assets/26.jpg)
+
+Corregimos el código para que pase la prueba:
+
+![](Assets/30.jpg)
+
+![](Assets/29.jpg)
 
 
 
