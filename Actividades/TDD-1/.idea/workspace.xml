@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81a4f063-66a7-415b-9e2f-e2b0ee3b96bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SOLID/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/ActividadSOLID.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/DIP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/DIP/InterfazUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/DIP/OracleDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/ISP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/ISP/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/ISP/ImpresoraAvanzada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/ISP/ImpresoraBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/LSP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/LSP/GuestUserPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/LSP/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/LSP/PaymentHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/LSP/RegisteredUserPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/OCP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/OCP/DistinctionDecider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/OCP/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/SRP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/NoSolid/SRP/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/DIP/BaseDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/DIP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/DIP/InterfazUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/DIP/MySQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/DIP/OracleDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/ISP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/ISP/DispositivoFax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/ISP/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/ISP/ImpresoraAvanzada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/ISP/ImpresoraBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/GuestUserPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/NewPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/PaymentHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/PreviousPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/LSP/RegisteredUserPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/ArteEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/ArtsDistinctionDecider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/CienciaEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/DistinctionDecider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/OCP/ScienceDistinctionDecider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/SRP/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/SRP/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/SRP/GeneradorIDEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/src/main/java/Solid/SRP/SeniorityChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/ISP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/ISP/Impresora.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/ISP/ImpresoraAvanzada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/ISP/ImpresoraBasica.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/LSP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/LSP/GuestUserPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/LSP/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/LSP/PaymentHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/LSP/RegisteredUserPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/OCP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/OCP/DistinctionDecider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/OCP/Estudiante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/SRP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/NoSolid/SRP/Empleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/ISP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/ISP/DispositivoFax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/ISP/Impresora.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/ISP/ImpresoraAvanzada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/ISP/ImpresoraBasica.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/GuestUserPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/NewPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/PaymentHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/PreviousPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/LSP/RegisteredUserPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/ArteEstudiante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/ArtsDistinctionDecider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/CienciaEstudiante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/DistinctionDecider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/Estudiante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/OCP/ScienceDistinctionDecider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/SRP/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/SRP/Empleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/SRP/GeneradorIDEmpleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOLID/SOLID/target/classes/Solid/SRP/SeniorityChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TDD-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActividadTDD-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/IDE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Wordz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/src/main/java/com/wordz/Wordz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-1/src/test/java/com/wordz/PlaceholderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/ActividadTDD-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/classes/java/main/com/wordz/Wordz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Letter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Word.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/classes/java/test/com/wordz/domain/WordTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/classes/com.wordz.domain.WordTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/reports/tests/test/packages/com.wordz.domain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/test-results/test/TEST-com.wordz.domain.WordTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/src/main/java/com/wordz/Wordz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/src/main/java/com/wordz/domain/Letter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/src/main/java/com/wordz/domain/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/src/main/java/com/wordz/domain/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-2/TDD-2/src/test/java/com/wordz/domain/WordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/ActividadTDD-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/Imagenes/Componentes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/Imagenes/RGB1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/Imagenes/RGB2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/Imagenes/RGB3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/classes/java/main/com/wordz/Wordz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/classes/java/main/com/wordz/domain/Letter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/classes/java/main/com/wordz/domain/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/classes/java/main/com/wordz/domain/Word.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/classes/java/test/com/wordz/domain/WordTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/classes/com.wordz.domain.WordTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/reports/tests/test/packages/com.wordz.domain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/test-results/test/TEST-com.wordz.domain.WordTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/src/main/java/com/wordz/Wordz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/src/main/java/com/wordz/domain/Letter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/src/main/java/com/wordz/domain/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/src/main/java/com/wordz/domain/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-3/TDD-3/src/test/java/com/wordz/domain/WordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/ActividadTDD-4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/Imagenes/UML1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/Imagenes/UML2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/Imagenes/UML3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/ConsoleGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/Graphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/ShapesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD-4/TDD-4/src/main/java/shapes/TextBox.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/TDD-1">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PphtjHndDS0flvhhJE2T4JBMZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/alexm/Downloads/CC-3S2-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81a4f063-66a7-415b-9e2f-e2b0ee3b96bd" name="Changes" comment="" />
+      <created>1684160146327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684160146327</updated>
+      <workItem from="1684160147964" duration="951000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
