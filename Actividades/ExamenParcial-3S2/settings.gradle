@@ -1,0 +1,8 @@
+rootProject.name = 'ExamenParcial-3S2'
+include 'src:main:Pregunta2'
+findProject(':src:main:Pregunta2')?.name = 'Pregunta2'
+include 'src:pregunta2'
+findProject(':src:pregunta2')?.name = 'pregunta2'
+include 'Pregunta1'
+include 'Pregunta2'
+
