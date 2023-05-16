@@ -1,5 +1,5 @@
 package org.example;
-public class Board {
+public class SOS {
     int row;
     int column;
     String[][] array;
@@ -36,15 +36,18 @@ public class Board {
         System.out.println();
     }
 
-    //obtenemos datos de la celda
-    String getCell(int i, int j) {
-        return array[i][j];
+    SOS() {
     }
 
-    //verificamos si esta vacia
-    boolean isEmpty(int r, int c) {
-        return getCell(r,c).equals(" ");
+    public int boardSize(int size){
+        if(size<3){
+            throw new IllegalArgumentException("El valor debe ser mayor o igual a 3");
+        }
+        else { return size;
+        }
     }
+
+
 
 
 }

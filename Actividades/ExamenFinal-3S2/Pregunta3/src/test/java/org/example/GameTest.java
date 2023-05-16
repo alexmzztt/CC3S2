@@ -6,9 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameTest {
 
-    @Test public void () {
-        assertEquals(6, SOS.boardSize(2););
+    @Test
+    public void boardSizeInvalid() {
+        SOS gameUnderTest = new SOS();
+        assertThrows(IllegalArgumentException.class, () -> gameUnderTest.boardSize(2));
     }
-    }
+
 
 }
