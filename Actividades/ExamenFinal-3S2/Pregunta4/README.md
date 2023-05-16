@@ -6,7 +6,7 @@ pasos de forma sistematica para generar pruebas que puedan cubrir los requisitos
 El autor nos sugiere analizar los requisitos para luego desglosarlos en entradas y en resultados esperados, luego exploramos 
 las diferentes combinaciones de entradas y salidas para generar pruebas que cubran escenarios relvantes del programa.
 
-# Pruebas
+# (b)Pruebas
 
 ![](assets/1.jpg)
 
