@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-16T00:58:50" hostname="LAPTOP-149Q82MK" time="0.019">
+  <properties/>
+  <testcase name="tictactoeWhenOThenX()" classname="org.example.AppTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

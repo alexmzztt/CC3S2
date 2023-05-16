@@ -9,7 +9,7 @@ class AppTest {
     @Test void tictactoeGivenXOutTableThenError(){
         Tictactoe gameUnderTest = new Tictactoe();
 
-        assertThrows(RuntimeException.class, () ->gameUnderTest.play(4,2), "Runtime Error esperado");
+        assertThrows(RuntimeException.class, () ->gameUnderTest.play(5,2), "Runtime Error esperado");
     }
 
     @Test void tictactoeGivenYOutTableThenError(){

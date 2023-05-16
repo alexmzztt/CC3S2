@@ -53,6 +53,7 @@ public class Tictactoe {
                 break;
         }
         return actualPlayer;
+
     }
 
     public String checkWinner(){
