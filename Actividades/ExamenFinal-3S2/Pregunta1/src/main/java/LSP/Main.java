@@ -15,7 +15,7 @@ public class Main {
 
         }
 
-        List<Organize> member = List.of(
+        List<Organize> members = List.of(
                 new PremiumMemberLSP("Abejita Azul"),
                 new VipMemberLSP("Kaperucita Feliz")
         );
@@ -32,3 +32,10 @@ public class Main {
 
 
 }
+
+
+
+
+
+
+

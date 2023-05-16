@@ -6,7 +6,7 @@ public class FreeMemberLSP extends MemberLSP {
     }
     @Override
     public void joinTournament() {
-        System.out.println(getnombre() + "se ha unido a un torneo");
+        System.out.println(getnombre() + "se puede unir a un torneo");
     }
     //Este método rompe LSP
     /*@Override

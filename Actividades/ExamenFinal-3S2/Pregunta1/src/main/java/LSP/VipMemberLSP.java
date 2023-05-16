@@ -7,11 +7,11 @@ public class VipMemberLSP extends MemberLSP implements Organize {
 
     @Override
     public void joinTournament() {
-        System.out.println(getnombre() + "se ha unido a un torneo");
+        System.out.println(getnombre() + "se puede unir a un torneo");
     }
 
     @Override
     public void organizeTournament() {
-        System.out.println(getnombre() + "ha organizado un torneo");
+        System.out.println(getnombre() + "puede organizar un torneo");
     }
 }

@@ -60,6 +60,13 @@ Clase VipMemberLSP:
 
 ![](assets/12.jpg)
 
+Main:
+
+![](assets/13.jpg)
+
+Ahora ejecutamos y mostramos el resultado:
+
+![](assets/15.jpg)
 
 
 
