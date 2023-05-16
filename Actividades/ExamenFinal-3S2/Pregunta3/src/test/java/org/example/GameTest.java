@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameTest {
 
-    @Test void boardSize(){
-        Board iniBoardUnderTest = new Board();
-        assertEquals("4", iniBoardUnderTest);
+    @Test public void () {
+        assertEquals(6, SOS.boardSize(2););
+    }
     }
 
 }

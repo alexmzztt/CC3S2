@@ -1,5 +1,4 @@
 package org.example;
-
 public class Board {
     int row;
     int column;
