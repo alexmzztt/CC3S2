@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-16T00:58:50" hostname="LAPTOP-149Q82MK" time="0.019">
+<testsuite name="org.example.AppTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-05-16T11:45:46" hostname="LAPTOP-149Q82MK" time="0.062">
   <properties/>
-  <testcase name="tictactoeWhenOThenX()" classname="org.example.AppTest" time="0.019"/>
+  <testcase name="tictactoeDraw()" classname="org.example.AppTest" time="0.041"/>
+  <testcase name="tictactoeNoWinnerDefault()" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="tictactoeWinnerHorizontal()" classname="org.example.AppTest" time="0.0"/>
+  <testcase name="tictactoeGivenYOutTableThenError()" classname="org.example.AppTest" time="0.004"/>
+  <testcase name="tictactoeWhenCellNoEmptyThenError()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="tictactoeWinnerSecondDiagonal()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="tictactoeWinnerFirstDiagonal()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="tictactoeGivenXOutTableThenError()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="tictactoeWhenStartThenPlayerX()" classname="org.example.AppTest" time="0.0"/>
+  <testcase name="tictactoeWinnerVertical()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="tictactoeWhenOThenX()" classname="org.example.AppTest" time="0.0"/>
+  <testcase name="tictactoeWhenXThenO()" classname="org.example.AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

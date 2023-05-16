@@ -10,15 +10,15 @@ public class Tictactoe {
     public String actualPlayer;
     public String Winner;
 
-    Tictactoe(){
+    Tictactoe() {
     }
 
     public void play(int x, int y) {
 
         nextPlayer();
 
-        int realX = x-1;
-        int realY = y-1;
+        int realX = x - 1;
+        int realY = y - 1;
 
         checkIfOutTable(realX, realY);
         checkIfEmpty(realX, realY);
@@ -26,20 +26,20 @@ public class Tictactoe {
         table[realX][realY] = actualPlayer;
     }
 
-    public void checkIfOutTable(int x, int y){
-        if(x< 0 || x > 2 || y < 0 || y > 2){
+    public void checkIfOutTable(int x, int y) {
+        if (x < 0 || x > 2 || y < 0 || y > 2) {
             throw new RuntimeException("La casilla esta fuera de los limites");
         }
     }
 
-    public void checkIfEmpty(int x, int y){
-        if(this.table[x][y] != "\0"){
+    public void checkIfEmpty(int x, int y) {
+        if (this.table[x][y] != "\0") {
             throw new RuntimeException("La casilla esta llena");
         }
     }
 
     public String nextPlayer() {
-        if(this.actualPlayer == null){
+        if (this.actualPlayer == null) {
             actualPlayer = "X";
             return actualPlayer;
         }
@@ -56,7 +56,7 @@ public class Tictactoe {
 
     }
 
-    public String checkWinner(){
+    public String checkWinner() {
         //todo lleno
         //filas
         for (int i = 0; i < 3; i++) {
